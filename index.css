@@ -1,6 +1,6 @@
 css
 body {
-    background-image: url(yarn.jpeg); /* Optional background */
+    background-image: url("yarn.jpeg"); /* Optional background */
     background-size: cover;
     font-family: 'Open Sans', 'Trebuchet MS', sans-serif;
     font-weight: bold;
