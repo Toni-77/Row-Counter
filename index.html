@@ -1,0 +1,22 @@
+<!-- index.html -->
+<html>
+    <head>
+        <!-- Link to the CSS stylesheet -->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class = "container">
+        <h1>Row Counter:</h1>
+        <!-- The ID 'count-el' is used by JS to update the number -->
+        <h2 id="count-el">0</h2>
+
+        <!-- Buttons with 'onclick' event listeners -->
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+
+        <p id="save-el">Previous entries: </p>
+        </div>
+              <!-- Link to the JS file must be at the bottom of <body> -->
+        <script src="index.js"></script>
+    </body>
+</html>
